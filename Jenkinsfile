@@ -10,7 +10,7 @@ stages {
                   }
   stage('maven') {
                     steps {
-                        sh 'mvn clean packge'
+                        sh 'mvn clean package'
                             }
          
         }
