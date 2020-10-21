@@ -5,7 +5,7 @@ pipeline {
 stages {
   stage('git') {
                 steps {
-                              git 'url' 
+                              git 'https://github.com/nrgO5/java_demo.git' 
                           }
                   }
   stage('maven') {
